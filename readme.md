@@ -26,7 +26,7 @@ var positions = {
 
 var delimiter = "^";
 
-var data = badge.main(delimiter, raw_data, positions);
+var data = badge.process(delimiter, raw_data, positions);
 ```
 
 The ``data`` contains the value of all the parameters specified in the ``position`` variable.

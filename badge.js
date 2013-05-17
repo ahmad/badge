@@ -42,7 +42,7 @@ var badge = {
 
 
 	// a one step process for main functions
-	main: function(delimiter, rawData, positions){
+	process: function(delimiter, rawData, positions){
 		this.delimiter = delimiter;
 		this.set(rawData);
 		this.config(positions);
