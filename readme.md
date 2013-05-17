@@ -6,7 +6,7 @@
 
 
 ### Step 2: Begin Using Badge.js
-``
+```javascript
 var raw_data = "999287^Donald^Shanahan^^3453 College St^^Macon^GA^31201^^(800) 555-5594^testing@options.com^^RN^IV Care Options";
 
 var positions = {
@@ -27,4 +27,4 @@ var positions = {
 var delimiter = "^";
 
 var data = badge.main(delimiter, raw_data, positions);
-``
+```
